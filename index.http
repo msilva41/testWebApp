@@ -1,0 +1,26 @@
+
+POST http://localhost:3000/api/infoStudents/student HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Daniela Garcia",
+    "age": 25,
+    "major": "Lawyer",
+    "id": "13"
+}
+
+
+###
+PUT http://localhost:3000/api/infoStudents/student/10 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Michael Silva",
+    "age": 27,
+    "major": "mechanical engineering",
+    "id": "20"
+}
+
+
+###
+delete http://localhost:3000/api/infoStudents/student/11 HTTP/1.1
